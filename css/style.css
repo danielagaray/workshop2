@@ -1,0 +1,106 @@
+@import url("https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:500|Raleway");
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline; }
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+body {
+  line-height: 1; }
+
+ol, ul {
+  list-style: none; }
+
+blockquote, q {
+  quotes: none; }
+
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none; }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+header .contenedor {
+  max-width: 1400px;
+  margin: auto; }
+  header .contenedor nav {
+    background: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 100px; }
+    header .contenedor nav div ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      padding: 5px 0px; }
+      header .contenedor nav div ul li {
+        border-left: 1px solid grey; }
+        header .contenedor nav div ul li a {
+          font-family: "Montserrat", sans-serif;
+          color: white;
+          font-size: 10px;
+          font-weight: 500;
+          display: inline-block;
+          text-decoration: none;
+          padding: 20px;
+          text-transform: uppercase; }
+        header .contenedor nav div ul li:first-child {
+          border: none; }
+    header .contenedor nav .iconos ul {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      margin-top: 14px; }
+      header .contenedor nav .iconos ul li {
+        border: none; }
+        header .contenedor nav .iconos ul li a {
+          padding: 5px; }
+          header .contenedor nav .iconos ul li a .icono {
+            color: #E8C948;
+            font-size: 15px; }
+        header .contenedor nav .iconos ul li:last-child a {
+          background: #353535; }
+          header .contenedor nav .iconos ul li:last-child a .icono {
+            color: grey;
+            background: #353535; }
+  header .contenedor .elegant {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; }
+    header .contenedor .elegant .imagenes {
+      display: flex; }
+      header .contenedor .elegant .imagenes article img {
+        max-width: 100%; }
+      header .contenedor .elegant .imagenes article div {
+        align-self: center;
+        position: absolute;
+        bottom: 0; }
+        header .contenedor .elegant .imagenes article div h4 {
+          font-weight: 700;
+          font-size: 20px;
+          color: red; }
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,103 @@
+@import "reset";
+@import url('https://fonts.googleapis.com/css?family=Lora:400,400i,700|Montserrat:500|Raleway');
+@import "variables";
+
+header{
+	.contenedor{
+		max-width: 1400px;
+		margin:auto;
+		nav{
+			background:black;
+			display: flex;
+			justify-content: space-between;
+			padding: 0px 100px;
+		
+			div{
+
+				ul{
+					display: flex;
+					flex-direction: row;
+					justify-content: center;
+					padding:5px 0px;
+					li{
+						border-left: 1px solid grey;
+						a{
+							font-family:$fuente-categoria;
+							color: white;
+							font-size:10px;
+							font-weight: 500;
+							display: inline-block;
+							text-decoration: none;
+							padding:20px;
+							text-transform: uppercase;
+						}
+						&:first-child{
+							border:none;
+						}
+
+
+					}
+
+				}
+			}
+
+			.iconos{
+				ul{
+					display:flex;
+					flex-direction:row;
+					justify-content: center;
+					align-items: center;
+					margin-top: 14px;
+					li{
+						border:none;
+						a{
+							padding:5px;
+
+							.icono{
+								color:#E8C948;
+								font-size: 15px;
+							}
+						}
+						&:last-child{
+							a{
+								background:#353535;
+								.icono{
+								color:grey;
+								background:#353535;
+								}
+							}	
+						}
+					}
+				}
+			}
+		}
+		.elegant{
+			display: flex;
+			flex-direction: column;
+			justify-content: center;
+			
+			.imagenes{
+				display: flex;
+				article{
+
+				img{
+					max-width: 100%;
+				}
+				div{
+				align-self: center;
+			    position: absolute;
+			    bottom: 0;
+				    h4{
+							font-weight: 700;
+							font-size: 20px;
+							color: red;
+					}
+
+				}
+			}	
+		}
+			
+		}
+	}
+} 
+
